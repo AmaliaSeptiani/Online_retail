@@ -9,3 +9,9 @@ VALUES('Amalia Septiani', 'Perempuan', '081234567891', 'Jl. in aja dulu'),
 ('Rani', 'Perempuan', '088253647581', 'Jl. pulang'),
 ('James', 'Laki-laki', '0854928351672', 'Jl. kesini'),
 ('William', 'Laki-laki', '08925361748', 'Jl. yu besok');
+
+INSERT INTO varian(id, name)
+VALUES('VA1', 'Laptop'),
+('VA2', 'Smartphone'),
+('VA3', 'Aksesoris'),
+('VA4', 'ATK');
