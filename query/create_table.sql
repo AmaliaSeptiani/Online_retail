@@ -19,3 +19,14 @@ price int not null,
 varian_id varchar(3) not null,
 FOREIGN KEY (varian_id) REFERENCES varian(id)
 ) ENGINE = InnoDB;
+
+CREATE TABLE orders(
+id INT(5) primary key not null auto_increment,
+customer_id INT not null,
+FOREIGN key (customer_id) REFERENCES customer(id),
+product_id varchar(3) not null,
+FOREIGN key (product_id) REFERENCES product(id),
+quantity INT not null,
+price INT not NULL,
+order_date DATETIME not null default CURRENT_TIMESTAMP
+) ENGINE = InnoDB;
