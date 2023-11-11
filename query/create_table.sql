@@ -10,3 +10,12 @@ CREATE TABLE varian(
 id VARCHAR(5) PRIMARY KEY NOT NULL,
 name ENUM('Laptop', 'Smartphone', 'Aksesoris', 'ATK') NOT NULL
 ) ENGINE = InnoDB;
+
+CREATE TABLE product(
+id varchar(3) primary key not null,
+name VARCHAR(100) not null UNIQUE,
+stock int not null DEFAULT 0,
+price int not null,
+varian_id varchar(3) not null,
+FOREIGN KEY (varian_id) REFERENCES varian(id)
+) ENGINE = InnoDB;
