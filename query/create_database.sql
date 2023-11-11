@@ -1,0 +1,2 @@
+CREATE DATABASE tpa_004;
+USE tpa_004;
