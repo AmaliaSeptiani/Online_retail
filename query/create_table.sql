@@ -7,7 +7,7 @@ address VARCHAR (100) not NULL
 ) ENGINE = InnoDB;
 
 CREATE TABLE varian(
-id VARCHAR(5) PRIMARY KEY NOT NULL,
+id VARCHAR(3) PRIMARY KEY NOT NULL,
 name ENUM('Laptop', 'Smartphone', 'Aksesoris', 'ATK') NOT NULL
 ) ENGINE = InnoDB;
 
