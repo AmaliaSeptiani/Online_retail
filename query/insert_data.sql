@@ -15,3 +15,15 @@ VALUES('VA1', 'Laptop'),
 ('VA2', 'Smartphone'),
 ('VA3', 'Aksesoris'),
 ('VA4', 'ATK');
+
+INSERT INTO product(id, name, stock, price, varian_id)
+VALUES('P1', 'Laptop Lenovo Ideapad Slim 1', 28, 7500000, 'VA1'),
+('P2', 'Tas Laptop', 54, 85000, 'VA3'),
+('P3', 'Samsung Galaxy Flip 3', 43, 15000000, 'VA2'),
+('P4', 'Buku Tulis bergaris', 67, 10000, 'VA4'),
+('P5', 'Buku Gambar', 32, 7000, 'VA4'),
+('P6', 'Casing Handphone', 85, 35000, 'VA3'),
+('P7', 'Oppo F7 128GB', 26, 1500000, 'VA2'),
+('P8', 'Laptop Lenovo Ideapad Gaming 3', 12, 17000000, 'VA1'),
+('P9', 'Macbook Pro 2023', 6, 22000000, 'VA1'),
+('P10', 'Macbook air 2023', 8, 20000000, 'VA1');
